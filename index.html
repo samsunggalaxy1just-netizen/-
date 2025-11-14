@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Auto — Современные автомобили и технологии</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #222;
+            background: #f7f7f7;
+        }
+        header {
+            background: url('https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px;
+            color: white;
+        }
+        header h1 { font-size: 52px; max-width: 700px; }
+        header p { font-size: 20px; max-width: 500px; opacity: 0.9; }
+        header a {
+            display: inline-block;
+            margin-top: 25px;
+            background: #ff4d4d;
+            padding: 16px 35px;
+            border-radius: 8px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        section {
+            padding: 70px 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        h2 { text-align: center; margin-bottom: 40px; font-size: 36px; }
+        .features, .cars, .reviews {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+        .box {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .box img { width: 100%; border-radius: 10px; }
+        .cta-block {
+            text-align: center;
+            padding: 60px;
+            background: #222;
+            color: white;
+        }
+        .cta-block a {
+            background: #ff4d4d;
+            color: white;
+            padding: 18px 40px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #1b1b1b;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Современные автомобили и технологии будущего</h1>
+    <p>Обзоры, сравнения, инновации и лучшие предложения на рынке.</p>
+    <a href="#contact">Получить консультацию</a>
+</header>
+
+<section id="about">
+    <h2>О проекте Modern Auto</h2>
+    <p style="text-align:center; max-width:800px; margin:auto;">
+        Мы создаем экспертные обзоры современных автомобилей, электрокаров и инновационных авто-технологий. 
+        Наш сайт помогает покупателям сделать правильный выбор и найти автомобиль мечты.
+    </p>
+</section>
+
+<section id="features">
+    <h2>Почему именно мы?</h2>
+    <div class="features">
+        <div class="box">
+            <h3>Экспертные обзоры</h3>
+            <p>Только проверенная и технически точная информация.</p>
+        </div>
+        <div class="box">
+            <h3>Сравнения моделей</h3>
+            <p>Честные сравнения авто разных классов и брендов.</p>
+        </div>
+        <div class="box">
+            <h3>Лучшие рекомендации</h3>
+            <p>Персональные подборы автомобилей под ваш бюджет.</p>
+        </div>
+    </div>
+</section>
+
+<section id="cars">
+    <h2>Популярные модели 2025</h2>
+    <div class="cars">
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1617814076822-9f72a157e0cd?auto=format&fit=crop&w=800&q=80" alt="Car">
+            <h3>Tesla Model S Plaid</h3>
+            <p>Топ-электрокар с рекордным ускорением и автопило
